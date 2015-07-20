@@ -1,0 +1,23 @@
+{
+  "name": "taisho-log-viewer",
+  "version": "0.0.1",
+  "description": "Realtime log viewer for our favorite black cat",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anime-se/taisho-log-viewer.git"
+  },
+  "author": "Madara Uchiha <me@madara.ninja>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anime-se/taisho-log-viewer/issues"
+  },
+  "homepage": "https://github.com/anime-se/taisho-log-viewer#readme",
+  "dependencies": {
+    "express": "^4.13.1",
+    "ws": "^0.7.2"
+  }
+}
