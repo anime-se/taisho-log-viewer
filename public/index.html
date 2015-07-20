@@ -8,5 +8,15 @@
 
 Hello World!
 
+<script>
+    var socket = new WebSocket('ws://localhost:3000/echo');
+    socket.addEventListener('open', function() {
+        socket.addEventListener('message', function(e) {
+            console.log(e);
+        });
+        socket.send(JSON.stringify({foo: "bar"}));
+    })
+</script>
+
 </body>
 </html>
