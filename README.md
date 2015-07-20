@@ -1,2 +1,2 @@
 # taisho-log-viewer
-An interactive, realtime log viewer for out favorite black cat
+An interactive, realtime log viewer for our favorite black cat
